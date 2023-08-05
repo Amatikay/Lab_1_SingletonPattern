@@ -5,8 +5,12 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Lab_1 main.cpp
         StackTemplate.h
-        Exception.h)
+        Exception.h
+        Person.h
+        PersonKeeper.h)
 
 
-add_executable(runTests test.cpp)
+add_executable(runTests test.cpp
+        Person.h
+        PersonKeeper.h)
 target_link_libraries(runTests gtest gtest_main)
