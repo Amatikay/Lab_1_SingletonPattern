@@ -12,5 +12,8 @@ add_executable(Lab_1 main.cpp
 
 add_executable(runTests test.cpp
         Person.h
-        PersonKeeper.h)
+        PersonKeeper.h
+        StackTemplate.h
+        Exception.h
+    )
 target_link_libraries(runTests gtest gtest_main)

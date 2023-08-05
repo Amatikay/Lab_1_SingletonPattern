@@ -10,11 +10,11 @@
 
 class Person {
 protected:
-    std::string fullName = {};
+    std::string fullName = {};//поле для хранения имени
 public:
-    Person() = default;
-    explicit Person(const std::string& fullName){this->fullName = fullName;};
-    std::string getName(){return fullName;};
+    Person() = default;//конструктор по умолчанию
+    explicit Person(const std::string& fullName){this->fullName = fullName;};//конструктор с параметром строка
+    std::string getName(){return fullName;};//метод для получения имени
 };
 
 
