@@ -1,5 +1,5 @@
-#include "StackTemplate.h"
-#include "PersonKeeper.h"
+#include "../include/StackTemplate.h"
+#include "../include/PersonKeeper.h"
 
 int main(){
     //Все тесты успещно заверщены. В этом файле только демонстрация работы.
@@ -16,7 +16,7 @@ int main(){
     try{
         stack_int.pop();
     } catch (exceptions::EStackEmpty &e) {
-        /*В конструкторе ошибки вызвано сообзение*/
+        /*В конструкторе ошибки вызвано сообщение*/
     };
 
 
