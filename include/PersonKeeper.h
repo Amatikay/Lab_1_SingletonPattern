@@ -11,7 +11,7 @@
 #include "StackTemplate.h"
 #include "Exception.h"
 
-class PersonKeeper : public Person {//Класс PersonKeeper наследованный от Person. Реализованный в соответствии с паттерном Singleton
+class PersonKeeper {//Класс PersonKeeper. Реализованный в соответствии с паттерном Singleton
 private:
     static PersonKeeper* instance;//ссылка на единственный экземпляр класса. Статическое поле класса. будет иметь одно значение для всех
                                   //экземпляров класса и будет существовать вне зависимости от того, созданы какие-либо экземпляры класса или нет.
