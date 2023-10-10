@@ -14,6 +14,7 @@ namespace exceptions{
     private:
         char* message;
     public:
+//        explicit - запрет на неявное преобразование типа
         explicit Exception(const char* arg_message)
         {
             message = new char[strlen(arg_message)+1];
